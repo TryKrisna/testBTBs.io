@@ -1,0 +1,246 @@
+/* Bootstrap Icon Improt */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+/* =====================Body custom=================== */
+
+body{
+    font-family: sans-serif;
+}
+
+/*=================== End Body custom ===================*/
+/* =================== Navbar section ===================*/
+.add-contain{
+    padding: 0px 100px;
+}
+.header .name{
+    color: white;
+    font-size: 28px;
+}
+.l-menu{
+    font-size: 20px;
+}
+
+.header .btns .icon i{
+    color: white;
+    /* background-color: #fff; */
+}
+
+.cate-box .text p{
+    color: black;
+}
+.my-head-title{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+/* hover img */
+.hover-img{
+    overflow: hidden;
+  
+}
+.hover-img img{
+    transition: 0.5s;
+}
+.hover-img:hover img{
+    transform:scale(1.1) ;
+}
+
+
+/* Card section */
+.my-titile{
+    font-size: 27px;
+    /* color: red; */
+    font-weight: bold;
+}
+/* search */
+.search-box .search-title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.cate-box .cate-title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.my-detail{
+    font-size: 20px;
+    /* color: blue; */
+}
+
+.p-text{
+    color: black;
+    font-size: 16px;
+}
+/* End card section */
+
+
+/*  menu card*/
+.card-menu
+{
+    padding: 0px;
+    margin: 0px;
+}
+.cate-menu ul li a{
+    text-decoration: none;
+    /* color: red; */
+    font-size: 17px;
+}
+.new-and-old{
+    text-align: center;
+}
+
+.cate-covid-title{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* =================== End Navbar section ===================*/
+
+/* Footer  */
+.footer{
+    height: 60px;
+    
+}
+.footer h1{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+}
+/* End footer  */
+
+
+
+/* Responsive solution */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .add-contain{
+        padding: 10px;
+    }
+    .my-head-title{
+        font-size: 30px;
+        font-weight: bold;
+    
+    }
+    
+    .my-detail{
+        font-size: 18px;
+        /* color: blue; */
+    }
+    /* title of each card */
+    .my-titile{
+        font-size: 20px;
+        /* color: red; */
+        font-weight: bold;
+    }
+    .p-text{
+        font-size: 15px;
+    }
+    .cate-covid-title{
+        color:black;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .search-box .search-title{
+        font-size:17px; 
+    }
+    .cate-box .cate-title{
+        font-size: 17px;
+    }
+    .footer h1{
+        font-size: 20px;
+        }
+}
+/* Small devices (landscape phone, 576px and up */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .add-contain{
+        padding: 0px 0px;
+    }
+
+    .my-head-title{
+        font-size: 30px;
+        font-weight: bold;
+    
+    }
+    
+    .my-detail{
+        font-size: 18px;
+        /* color: blue; */
+    }
+    /* title of each card */
+    .my-titile{
+        font-size: 25px;
+        /* color: red; */
+        font-weight: bold;
+    }
+    .p-text{
+        color: black;
+        font-size: 16px;
+    }
+    .cate-covid-title{
+        color:black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .search-box .search-title{
+        font-size:18px; 
+    }
+    .cate-box .cate-title{
+        font-size: 18px;
+    }
+
+    .footer h1{
+        font-size: 19px;
+        }
+    
+
+}
+@media (max-width: 575.98px)
+{
+    .add-contain{
+        padding: 0px 10px;
+    }
+
+    .my-head-title{
+        font-size: 28px;
+        font-weight: bold;
+    
+    }
+    
+    .my-detail{
+        font-size: 16px;
+    }
+    /* title of each card */
+    .my-titile{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .p-text{
+        font-size: 16px;
+    }
+    .cate-covid-title{
+        color: black;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .search-box .search-title{
+        font-size:17px; 
+    }
+    .cate-box .cate-title{
+        font-size: 17px;
+    }
+    .footer h1{
+    font-size: 18px;
+    }
+    
+}
+
+
+
